@@ -1,0 +1,217 @@
+{
+  "pumps": {
+    "1": {
+      "bcm": 13,
+      "ingredient": "White Martini"
+    },
+    "2": {
+      "bcm": 16,
+      "ingredient": "Red Martini"
+    },
+    "3": {
+      "bcm": 19,
+      "ingredient": "Gin"
+    },
+    "4": {
+      "bcm": 20,
+      "ingredient": "Rum"
+    },
+    "5": {
+      "bcm": 26,
+      "ingredient": "Coke"
+    },
+    "6": {
+      "bcm": 21,
+      "ingredient": "Tequila"
+    }
+  },
+  "ingredients": [
+    "None",
+    "Vodka",
+    "Rum",
+    "Gin",
+    "Bourbon",
+    "Whiskey",
+    "Triple Sec",
+    "Tequila",
+    "Red Martini",
+    "White Martini",
+    "Kahlua",
+    "Campari",
+    "Sweet & Sour Mix",
+    "Coke",
+    "Tonic",
+    "Orange Juice",
+    "Soda Water",
+    "Grenadine"
+  ],
+  "drinks": {
+    "Rum": {
+      "displayname": "Rum",
+      "name": "rum",
+      "glass_img": "glass_rocks.png",
+      "ingredients": [
+        {
+          "name": "Rum",
+          "amount": 100
+        }
+      ]
+    },
+    "Tequila": {
+      "displayname": "Tequila",
+      "name": "tequila",
+      "glass_img": "glass_shot.png",
+      "ingredients": [
+        {
+          "name": "Tequila",
+          "amount": 100
+        }
+      ]
+    },
+    "Black Russian": {
+      "displayname": "Black Russian",
+      "name": "black_russian",
+      "glass_img": "glass_rocks.png",
+      "ingredients": [
+        {
+          "name": "Vodka",
+          "amount": 66
+        },
+        {
+          "name": "Kahlua",
+          "amount": 34
+        }
+      ]
+    },
+    "Negroni": {
+      "displayname": "Negroni",
+      "name": "negroni",
+      "glass_img": "glass_rocks.png",
+      "ingredients": [
+        {
+          "name": "Gin",
+          "amount": 34
+        },
+        {
+          "name": "Red Martini",
+          "amount": 33
+        },
+        {
+          "name": "Campari",
+          "amount": 33
+        }
+      ]
+    },
+    "Dry Martini": {
+      "displayname": "Dry Martini",
+      "name": "dry_martini",
+      "glass_img": "glass_cocktail.png",
+      "ingredients": [
+        {
+          "name": "Gin",
+          "amount": 50
+        },
+        {
+          "name": "White Martini",
+          "amount": 50
+        }
+      ]
+    },
+    "Long Island": {
+      "displayname": "Long Island Iced Tea",
+      "name": "long_island",
+      "glass_img": "glass_highball.png",
+      "ingredients": [
+        {
+          "name": "Gin",
+          "amount": 20
+        },
+        {
+          "name": "Vodka",
+          "amount": 20
+        },
+        {
+          "name": "Tequila",
+          "amount": 20
+        },
+        {
+          "name": "Triple Sec",
+          "amount": 20
+        },
+        {
+          "name": "Rum",
+          "amount": 20
+        },
+        {
+          "name": "Coke",
+          "amount": 30
+        }
+      ]
+    },
+    "Rum & Coke": {
+      "displayname": "Rum & Coke",
+      "name": "rum_and_coke",
+      "glass_img": "glass_highball.png",
+      "ingredients": [
+        {
+          "name": "Rum",
+          "amount": 100
+        },
+        {
+          "name": "Coke",
+          "amount": -1
+        }
+      ]
+    },
+    "Jack & Coke": {
+      "displayname": "Jack & Coke",
+      "name": "jack_and_coke",
+      "glass_img": "glass_highball.png",
+      "ingredients": [
+        {
+          "name": "Bourbon",
+          "amount": 100
+        },
+        {
+          "name": "Coke",
+          "amount": -1
+        }
+      ]
+    },
+    "Tequila Sunrise": {
+      "displayname": "Tequila Sunrise",
+      "name": "tequila_sunrise",
+      "glass_img": "glass_highball.png",
+      "ingredients": [
+        {
+          "name": "Tequila",
+          "amount": 100
+        },
+        {
+          "name": "Grenadine",
+          "amount": 30
+        },
+        {
+          "name": "Orange Juice",
+          "amount": -1
+        }
+      ]
+    },
+    "Gin & Tonic": {
+      "displayname": "Gin & Tonic",
+      "name": "gin_and_tonic",
+      "glass_img": "glass_highball.png",
+      "ingredients": [
+        {
+          "name": "Gin",
+          "amount": 100
+        },
+        {
+          "name": "Tonic",
+          "amount": -1
+        }
+      ]
+    }
+  },
+  "drink_size": "6"
+}

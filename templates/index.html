@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<div id="modal-fade">
+  <div class="modal-text">Preparing your drink...</div>
+</div>
+
+<a href="{{ url_for('config') }}" class="settings right"><img src="{{ url_for('static', filename='settings.png') }}"></a>
+<input type="button" value="-" class="minus" onClick="minus()"><input type="text" value="{{ drink_size }}" id="drink_size" class="amount" readonly><input type="button" value="+" class="plus" onClick="plus()">
+
+  {% for drink,drink_data in drinks.items() %}
+    <a href="#" onClick="make_drink('{{ drink }}')" class="drink_box">
+      <img src="{{ url_for('static', filename=drink_data['glass_img']) }}" class="drink-icon right">
+      {{ drink }}
+    </a>
+  {% endfor %}
+
+
+{% endblock %}

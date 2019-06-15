@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+<a href="{{ url_for('config') }}" class="button"><</a><br>
+
+<div class="wrapper-half">
+<h3>Empty tubes</h3>
+{% for pump in range(1,7) %}
+	<a href="{{ url_for('clean_pump', pump=pump) }}" class="button button-clean">{{ pump }}</a>
+{% endfor %}
+</div>
+
+<div class="wrapper-half">
+<h3>Clean tubes</h3>
+<a href="{{ url_for('clean_all') }}" class="button button-large">Start</a>
+</div>
+
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+<form action="{{ url_for('index') }}" method="post">
+  {{ form.csrf_token }}
+
+  {{ form.submit(class="button") }}
+<div class="right"><input type="button" value="-" class="minus" onClick="minus()">{{ form.drink_size(class="amount", value=conf["drink_size"], readonly=True)}}<input type="button" value="+" class="plus" onClick="plus()"></div>
+<a href="{{ url_for('clean') }}" class="button right">Clean</a>
+
+<br><br>
+<div class="pump_label">1</div>
+{{ form.pump1 }}
+<div class="pump_label">2</div>
+{{ form.pump2 }}
+<div class="pump_label">3</div>
+{{ form.pump3 }}
+<div class="pump_label">4</div>
+{{ form.pump4 }}
+<div class="pump_label">5</div>
+{{ form.pump5 }}
+<div class="pump_label">6</div>
+{{ form.pump6 }}
+
+
+</form>
+{% endblock %}
